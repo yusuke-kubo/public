@@ -3,6 +3,9 @@ name: Hello, World
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   hello-world:
     runs-on: ubuntu-latest
